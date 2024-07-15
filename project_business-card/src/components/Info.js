@@ -19,7 +19,7 @@ function Info() {
       <img src={picture} className="info--picture" alt="info-pic"/>
       <h1 className="info--name"> Moin Bung </h1>
       <h3 className="info--role"> Software Engineer </h3>
-      <a className="info--site" href="moinbung.com"> moinbung.com </a>
+      <a className="info--site" href="http://www.moinbung.com"> moinbung.com </a>
       <Links />
     </main>
   );
