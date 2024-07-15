@@ -1,0 +1,35 @@
+We can either create a react app using npm or by using basic html/css/js
+
+npm: npx create-react-app {project_name}
+
+html/js/css: add script tags to pull in the following:
+    - react.development.js
+    - react.dom.development.js
+    - babel.min.js
+
+React has this cool thing called React DOM.
+
+ReactDOM has many react methods:
+    - ReactDOM.render({what to place}, {where to place it}) 
+        allows us to add html elements to the screen
+        good to write declarative statements
+
+Why use React?
+    - It gives us a declarative and imperative way to write code
+    - Composable and Declarative features
+
+Composable code:
+    - Similar to sculpting
+    - Instead of creating a whole scuplture, we can create small pieces of it using lego bricks
+    - We can split our code into custom components, and make it easier to reuse and maintain
+
+    We can create functions to call later on... example:
+        function MainContent(){ 
+            return (<h1> Content </h1>)
+        }
+
+Declarative:
+    - Tell me what to do, I'll get figure out how to get it done.
+
+Imperative:
+    - Tell me every step on how to do something.

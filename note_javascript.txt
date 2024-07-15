@@ -1,0 +1,17 @@
+Recreate the following in JavaScript
+
+// Declarative
+ReactDOM.render(<h1>Hello, React!</h1>, document.getElementById("root"))
+
+// Imperative
+const h1 = document.createElement("h1") // creates an html element
+h1.textContent = "Hello, React!"
+h1.className = "header"
+document.getElementById("root").append(h1)
+
+JSX - JavaScript XML -  
+    - a flavor of javascript that allows you to write html
+    - with JSX, we can only render 1 parent element
+    - returns plain javascript objects
+
+

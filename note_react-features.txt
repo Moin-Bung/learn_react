@@ -1,0 +1,31 @@
+import React from "react"
+import ReactDOM from "react-dom"
+
+React is written in PascalCase
+
+ReactDOM has many react methods:
+    - ReactDOM.render({what to place}, {where to place it}) 
+        allows us to add html elements to the screen
+        good to write declarative statements
+    
+
+We can create functions to call later on... example:
+    function MainContent(){ 
+        return (<h1> Content </h1>)
+    }
+
+
+ReactDOM.render(
+    <div>
+        <MainContent />
+    </div>,
+    document.getElementById("root")
+)
+
+
+React 18:
+
+We create a root render to create the root
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(navbar)

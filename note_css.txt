@@ -1,0 +1,42 @@
+JavaScript would declare classes as the following:
+
+document.createElement("ul")
+document.className="nav-list"
+
+React also defines classes as className
+
+Grabbing fonts
+
+Example CSS for a Nav Bar:
+
+<nav className="nav">
+    <img src="./logo.svg" width="40px"/>
+    <ul className="nav-items"
+        <li>Pricing</li>
+        <li>Contact</li>
+        <li>About</li>
+    </ul>
+</nav>
+
+.nav {
+    display: flex; //makes our nav a flex box
+    align-items: center; //will fix the stretching of our image caused by flex container
+    justify-content: space-between;
+    //adds spacing between all flex items, will push our nav-list to the far-right, logo will stay on left as it is not flex
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 10px;
+}
+
+
+display: flex; // changes our list from vertically aligned to horizontal, inline
+justify-content: space-between; //pushes spacing between flex elements, makes list go to far-right, aligns horizontal
+list-style: none; // removes list styling from ul or ol
+align-items: center; //fixes stretching caused by flex box, aligns vertical
+::marker //pseudo-selector which highlights bullets from lists
