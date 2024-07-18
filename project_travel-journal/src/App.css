@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.headerbar {
+  display: flex;
+  background-color: #F55A5A;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerbar--icon {
+  color: white;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.headerbar--text {
+  color: white;
+  font-size: 15px;
+}
+
+
+.travelsection {
+  padding: 40px;
+}
+
+hr { 
+  border: none;
+  border-top: 1px solid #ccc; /* Consistent border */
+  margin: 10px 0px;
+  padding-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.travelbar {
+  display: flex;
+  flex-direction: row;
+  flex: 0px 0px auto;
+}
+
+.travelbar--image {
+  height: 200;
+  width: 150px;
+}
+
+.travelbar--icon {
+  height: 10px;
+  width: 7px;
+  margin-right: 5px;
+  background-color: #F55A5A;
+  color: #F55A5A;
+}
+
+.travelbar--desc {
+  padding: 20px;
+  text-align: left;
+}
+
+.travelbar--country {
+  font-weight: 400;
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+.travelbar--country-link {
+  font-weight: 400;
+  font-size: 11px;
+  color: #918E9B;
+  text-decoration-color: #918E9B;
+}
+
+.travelbar--location {
+  margin: 5px 0px;
+  font-size: 25px;
+}
+
+.travelbar--dates {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.travelbar--text {
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: 400;
+}

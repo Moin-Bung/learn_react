@@ -34,9 +34,22 @@ Example CSS for a Nav Bar:
     padding: 10px;
 }
 
-
+html
+hr - horizontal rule
+span - inline element
+const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
+const paragraphs = pokemon.map(mon => `<p>${mon}</p>`)
+// -->          ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+ .map  //allows us to convert an array of raw data into an array of JSX elements
+        // makes our code self-sustaining
+css
 display: flex; // changes our list from vertically aligned to horizontal, inline
+flex: 0 0 auto; // flex-grow, flex-shrink, flex-basis
+flex-direction: column or row
+overflow-x: auto; // allows overflow - carousel 
 justify-content: space-between; //pushes spacing between flex elements, makes list go to far-right, aligns horizontal
 list-style: none; // removes list styling from ul or ol
 align-items: center; //fixes stretching caused by flex box, aligns vertical
+padding: space between content and border 
+margin: space between element and other elements
 ::marker //pseudo-selector which highlights bullets from lists

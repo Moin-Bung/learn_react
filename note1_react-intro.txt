@@ -33,3 +33,18 @@ Declarative:
 
 Imperative:
     - Tell me every step on how to do something.
+
+
+const paragraphs = pokemon.map(mon => `<p>${mon}</p>`)
+// -->          ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+ .map  //allows us to convert an array of raw data into an array of JSX elements
+        // makes our code self-sustaining
+
+
+Conditional Rendering:
+{props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
+    Will only render the div if openSpots is 0
+
+Prop Spread:
+{...item} -> spreads its values into properties
+
